@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Muhammad Nabhan Zaki</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran</h1>
+    <form action="">
+        Nama <input type="text"
+        placeholder="Ketikkan namamu"
+        name="nama_user">
+        <br>
+        Kota Lahir <input type="text" 
+        placeholder="Ketikkan kota lahirmu"
+        name="kota_lahir" list=kota_lahir>
+        <datalist id="kota_lahir">
+            <option value="Semarang">Semarang</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Ungaran">Ungaran</option>
+            <option value="Demak">Demak</option>
+        </datalist>
+        <br>
+        Tanggal lahir
+        <input type="date" name="ttl">
+        <br>
+
+        Gender <input type="radio" value="Pria" name="Gender">
+        Pria
+        <input type="radio" value="Wanita" name="Gender">
+        Wanita
+        <br>
+
+        Agama
+        <select name="Agama">
+            <option value="Islam">Islam</option>
+            <option value="Katolik">Katolik</option>
+            <option value="Kristen">Kristen</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Budha">Budha</option>
+            <option value="Konghucu">Konghucu</option>
+        <br>
+        Alamat
+        <textarea name="Alamat"
+        cols="30"
+        rows="10"></textarea>
+        <br>
+        Hobi
+        <input type="checkbox" value="Memasak" name="Hobi">Memasak
+        <input type="checkbox" value="Menyanyi" name="Hobi">Menyanyi
+        <input type="checkbox" value="Mendengarkan musik" name="Hobi">Mendengarkan musik
+        <br>
+        Clear
+        <input type="reset" name="reset" value="Clear">
+        Send
+        <input type="submit" name="submit" value="Send">
+        <br>
+        <a href="index.html">Balik</a>
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    background:url(https://i.pinimg.com/736x/77/67/ed/7767ed4ec0a2f3fad97dd7e1510174ef.jpg) bottom right no-repeat fixed,
+    url(https://www.enthusiast.com.au/wp-content/uploads/enthusiast-jdm-content118-1.jpg) no-repeat fixed;
+    background-size: 100px 100px, 100% 100%;
+}
+ol li::marker{
+    color: white;
+}
+ul li::marker{
+    color: white;
+}
